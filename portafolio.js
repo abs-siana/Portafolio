@@ -1,4 +1,3 @@
-console.log("💫 Script cargado correctamente");
 
 // Gallery
 const trabajos = [
