@@ -5,8 +5,8 @@ const trabajos = [
 	
 	{
 	titulo: "Ilumini",
-	categoria: "Diseño de Interfaz",
-	imagen: "app.png",
+	categoria: "Iluminaria para niños",
+	imagen: "Ilumini.png",
 	alt: "Proyecto 1",
 	},
 
