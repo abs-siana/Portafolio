@@ -34,7 +34,7 @@ const trabajos = [
 	{
 	titulo: "I AM NOT PLASTIC",
 	categoria: "Colaboración con "Iam not plastic"",
-	imagen: "I AM NOT PLASTIC.png",
+	imagen: "IAMNOTPLASTIC.png",
 	alt: "Proyecto 5",
 	},
 
