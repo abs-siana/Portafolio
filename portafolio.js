@@ -11,58 +11,58 @@ const trabajos = [
 	},
 
 	{
-	titulo: "Bioplástico",
-	categoria: "Diseño de Biomateriales",
-	imagen: "bioplastico.jpeg",
+	titulo: "Lumbra",
+	categoria: "Mósulo urbano",
+	imagen: "Lumbra.png",
 	alt: "Proyecto 2",
 	},
 
 	{
-	titulo: "Bolsas a pedido",
-	categoria: "Pedido Personalizado",
-	imagen: "bolsas.png",
+	titulo: "Equilibra-T",
+	categoria: "Colaboración con MIM",
+	imagen: "MIM.png",
 	alt: "Proyecto 3",
 	},
 
 	{
-	titulo: "Botris",
+	titulo: "AromaZen",
 	categoria: "Diseño de Producto",
-	imagen: "boltris.png",
+	imagen: "AromaZen.png",
 	alt: "Proyecto 4",
 	},
 
 	{
-	titulo: "Señaletica",
-	categoria: "Diseño de Señaleticas",
-	imagen: "senal.png",
+	titulo: "I AM NOT PLASTIC",
+	categoria: "Colaboración con "Iam not plastic"",
+	imagen: "I AM NOT PLASTIC.png",
 	alt: "Proyecto 5",
 	},
 
 	{
-	titulo: "Cartas Personalizadas",
-	categoria: "Pedido Personalizado",
-	imagen: "cartas.png",
+	titulo: "Llave Inglea",
+	categoria: "Mejora ergonomica de herramienta",
+	imagen: "Llave Inglesa.png",
 	alt: "Proyecto 6",
 	},
 
 	{
-	titulo: "Autito",
-	categoria: "Diseño por manufactura digital",
-	imagen: "kachow.png",
+	titulo: "SondZ",
+	categoria: "Diseño por manufactura",
+	imagen: "SoundZ.png",
 	alt: "Proyecto 7",
 	},
 
 	{
-	titulo: "Lámpara",
+	titulo: "Morpho",
 	categoria: "Diseño de producto",
-	imagen: "lampara.png",
+	imagen: "Morpho.png",
 	alt: "Proyecto 8",
 	},
 
 	{
-	titulo: "Olerium",
+	titulo: "Mivory",
 	categoria: "Diseño de Juego",
-	imagen: "olerium.png",
+	imagen: "Mivory Join.png",
 	alt: "Proyecto 9",
 	}
 ]
