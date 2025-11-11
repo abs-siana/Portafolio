@@ -39,7 +39,7 @@ const trabajos = [
 	},
 
 	{
-	titulo: "Llave Inglea",
+	titulo: "Llave Inglesa",
 	categoria: "Mejora ergonomica de herramienta",
 	imagen: "Llave Inglesa.png",
 	alt: "Proyecto 6",
