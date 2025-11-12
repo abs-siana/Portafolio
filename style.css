@@ -78,38 +78,35 @@ body {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px; /* más espacio entre imágenes */
-    background-color: transparent; /* sin fondo blanco */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px; /* más espacio entre las imágenes */
     justify-items: center;
+    background-color: transparent; /* sin fondo blanco */
 }
 
 .gallery-item {
-    position: relative;
+    background-color: #fff; /* fondo blanco para cada imagen */
+    border-radius: 8px; /* bordes suaves */
     overflow: hidden;
-    background-color: #f0f0f0;
-    border-radius: 8px; /* bordes suaves como en el otro portafolio */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 450px; /* limita el ancho máximo */
 }
 
 .gallery-item:hover {
     transform: scale(1.02);
- box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
 .gallery-item img {
     width: 100%;
     height: auto;
-        display: block;
-    aspect-ratio: 4 / 3;
+    display: block;
     object-fit: cover;
-    transition: opacity 0.3s ease;
+    aspect-ratio: 4 / 3; /* mantiene proporción similar entre imágenes */
 }
 
-.gallery-item:hover img {
-    opacity: 0.9;
-}
 
 /* === OVERLAY DE INFORMACIÓN === */
 .gallery-overlay {
