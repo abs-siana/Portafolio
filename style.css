@@ -80,7 +80,7 @@ body {
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 10px;
     background-color: #fff;
 }
 
@@ -90,6 +90,7 @@ body {
     background-color: #f0f0f0;
     cursor: pointer;
     transition: transform 0.3s ease;
+    aspect-ratio: 1 / 1; /* Hace cada celda cuadrada */
 }
 
 .gallery-item:hover {
