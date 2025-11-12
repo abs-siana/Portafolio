@@ -5,7 +5,7 @@ const trabajos = [
 	{
 	titulo: "Ilumini",
 	categoria: "Iluminaria para niños",
-	imagen: "portafolio/Ilumini.png",
+	imagen: "Ilumini.png",
 	alt: "Proyecto 1",
 	},
 
