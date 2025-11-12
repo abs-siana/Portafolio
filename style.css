@@ -1,4 +1,11 @@
-@import url('https://www.dafont.com/es/paranoid-character.font?text=Anais+Silva,wght@0,100..900;1,100..9000&display=swap');
+@font-face {
+    font-family: 'Paranoid';
+    src: url('paranoid_character/PARANOID CHARACTER DEMO.ttf') format('truetype'),
+         url('paranoid_character/PARANOID CHARACTER DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
