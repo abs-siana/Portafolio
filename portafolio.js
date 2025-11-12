@@ -47,7 +47,7 @@ const trabajos = [
 	{
 	titulo: "Mivory Join",
 	categoria: "Diseño por manufactura digital",
-	imagen: "MivoryJoin.png",
+	imagen: "mivoryjoin.png",
 	alt: "Proyecto 7",
 	},
 
