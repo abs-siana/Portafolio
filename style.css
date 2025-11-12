@@ -78,9 +78,10 @@ body {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    background-color: #fff;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px; /* más espacio entre imágenes */
+    background-color: transparent; /* sin fondo blanco */
+    justify-items: center;
 }
 
 .gallery-item {
