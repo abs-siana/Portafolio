@@ -40,7 +40,7 @@ const trabajos = [
 	{
 	titulo: "Llave Inglesa",
 	categoria: "Mejora ergonomica de herramienta",
-	imagen: "Llave Inglesa.png",
+	imagen: "LlaveInglesa.png",
 	alt: "Proyecto 6",
 	},
 
@@ -61,7 +61,7 @@ const trabajos = [
 	{
 	titulo: "Mivory",
 	categoria: "Diseño de Juego",
-	imagen: "Mivory Join.png",
+	imagen: "MivoryJoin.png",
 	alt: "Proyecto 9",
 	}
 ]
