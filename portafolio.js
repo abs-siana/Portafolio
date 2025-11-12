@@ -10,58 +10,58 @@ const trabajos = [
 	},
 
 	{
-	titulo: "Bioplástico",
+	titulo: "I AM NOT PLASTIC",
 	categoria: "Diseño de Biomateriales",
-	imagen: "#",
+	imagen: "IAMNOTPLASTIC.png",
 	alt: "Proyecto 2",
 	},
 
 	{
-	titulo: "Bolsas a pedido",
+	titulo: "Ilumini",
 	categoria: "Pedido Personalizado",
-	imagen: "#",
+	imagen: "Ilumini.png",
 	alt: "Proyecto 3",
 	},
 
 	{
-	titulo: "Botris",
+	titulo: "Llave Ingles",
 	categoria: "Diseño de Producto",
-	imagen: "#",
+	imagen: "LlaveInglesa.png",
 	alt: "Proyecto 4",
 	},
 
 	{
-	titulo: "Señaletica",
+	titulo: "Lumbra",
 	categoria: "Diseño de Señaleticas",
-	imagen: "#",
+	imagen: "Lumbra.png",
 	alt: "Proyecto 5",
 	},
 
 	{
-	titulo: "Cartas Personalizadas",
+	titulo: "MIM",
 	categoria: "Pedido Personalizado",
-	imagen: "#",
+	imagen: "MIM.PNG",
 	alt: "Proyecto 6",
 	},
 
 	{
-	titulo: "Autito",
+	titulo: "Mivory Join",
 	categoria: "Diseño por manufactura digital",
-	imagen: "#",
+	imagen: "MivoryJoin.png",
 	alt: "Proyecto 7",
 	},
 
 	{
-	titulo: "Lámpara",
+	titulo: "Morpho",
 	categoria: "Diseño de producto",
-	imagen: "#",
+	imagen: "Morpho.png",
 	alt: "Proyecto 8",
 	},
 
 	{
-	titulo: "Olerium",
+	titulo: "SoundZ",
 	categoria: "Diseño de Juego",
-	imagen: "#",
+	imagen: "SoundZ.png",
 	alt: "Proyecto 9",
 	}
 ]
