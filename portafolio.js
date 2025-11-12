@@ -1,8 +1,13 @@
 
 // Gallery
 const trabajos = [
-	
 	{
+		 <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=500&h=500&fit=crop&crop=center" alt="Proyecto 2">
+                    <div class="gallery-overlay">
+                        <h3>Diseño Editorial</h3>
+                        <p>Editorial</p>
+                    </div>
 	titulo: "Ilumini",
 	categoria: "Iluminaria para niños",
 	imagen:"Ilumini.png",
