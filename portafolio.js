@@ -40,7 +40,7 @@ const trabajos = [
 	{
 	titulo: "MIM",
 	categoria: "Pedido Personalizado",
-	imagen: "MIM.PNG",
+	imagen: "MIM.png",
 	alt: "Proyecto 6",
 	},
 
