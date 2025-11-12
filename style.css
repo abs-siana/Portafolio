@@ -79,9 +79,14 @@ body {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    background-color: #fff;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* más espacio entre imágenes */
+    margin: 50px auto; /* centrado horizontal */
+    max-width: 1200px; /* ancho total máximo de la galería */
+}
+
 }
 
 .gallery-item {
