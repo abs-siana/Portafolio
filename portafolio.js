@@ -3,9 +3,9 @@
 const trabajos = [
 	
 	{
-	titulo: "App Fitness",
+	titulo: "AromaZen",
 	categoria: "Diseño de Interfaz",
-	imagen: "#",
+	imagen: "AromaZen.png",
 	alt: "Proyecto 1",
 	},
 
