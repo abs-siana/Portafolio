@@ -33,22 +33,22 @@ body {
 .header {
     text-align: center;
     padding: 60px 0 40px;
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid #001166;
 }
 
 .header h1 {
     font-family: 'Paranoid', sans-serif;
-    font-size: 3rem;
-    font-weight: normal;
-    letter-spacing: 3px;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing:2px;
     margin-bottom: 10px;
     color: #001166;
 }
 
 .header p {
     font-size: 1.1rem;
-    color: #555;
-    font-weight: 400;
+    color: #666;
+    font-weight: 300;
 }
 
 /* === NAVEGACIÓN === */
@@ -59,7 +59,7 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #555;
+    color: #66;
     margin: 0 25px;
     font-size: 0.95rem;
     letter-spacing: 1px;
@@ -69,7 +69,7 @@ body {
 
 .nav a:hover,
 .nav a.active {
-    color: #2c2c2c;
+    color: #310800;
 }
 
 /* === GALERÍA === */
@@ -146,12 +146,12 @@ body {
 .footer {
     text-align: center;
     padding: 60px 0 40px;
-    border-top: 1px solid #dcdcdc;
+    border-top: 1px solid #e5e5e5;
     margin-top: 40px;
 }
 
 .footer p {
-    color: #777;
+    color: #999;
     font-size: 0.9rem;
 }
 
