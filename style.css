@@ -77,19 +77,17 @@ body {
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px; /* cámbialo por menos */
+    gap: 2px; /* antes 5px */
     background-color: #fff;
 }
 
 .gallery-item {
     position: relative;
     width: 100%;
-    /* max-width: 450px;  <-- quítalo */
-    aspect-ratio: 4 / 3;
-    background-color: #fff;
+    aspect-ratio: 1 / 1; /* cuadradas, más grandes */
     border-radius: 0;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
