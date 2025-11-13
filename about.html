@@ -6,8 +6,8 @@
     <title>Anaís Silva - Diseñadora industrial</title>
     <link href="style.css" rel="stylesheet"/>
 </head>
-<body>
-    <body class="sobre-mi">
+
+<body class="sobre-mi">
     <div class="container">
         <!-- Header -->
         <header class="header">
@@ -22,17 +22,17 @@
         </nav>
 
         <div class="yo">
-        <img src="#" alt="#" class="#">
-        <p>Soy estudiante de Diseño Industrial en mi último año. Me interesa explorar diversas áreas del diseño, incluyendo diseño gráfico, branding e interiores, entre otras. <br> Me caracterizo por ser una persona curiosa, proactiva y motivada, con una fuerte disposición al aprendizaje continuo. Ante cualquier desafío, busco soluciones efectivas para llevar adelante los proyectos, convencida de que nunca es tarde para adquirir nuevas herramientas. Espero seguir profundizando mis conocimientos y desarrollando las habilidades necesarias para integrarme al mundo laboral del diseño.</p>
-    </div>
+            <img src="#" alt="#" class="#">
+            <p>Soy estudiante de Diseño Industrial en mi último año. Me interesa explorar diversas áreas del diseño, incluyendo diseño gráfico, branding e interiores, entre otras. <br> Me caracterizo por ser una persona curiosa, proactiva y motivada, con una fuerte disposición al aprendizaje continuo. Ante cualquier desafío, busco soluciones efectivas para llevar adelante los proyectos, convencida de que nunca es tarde para adquirir nuevas herramientas. Espero seguir profundizando mis conocimientos y desarrollando las habilidades necesarias para integrarme al mundo laboral del diseño.</p>
+        </div>
 
-    <div class="grafico">
-    <h2>Habilidades de Diseño</h2>
-    <p>En este gráfico se puede ver mis diferentes habilidades que e adquerido durante los años 2023 hasta la actualidad 2025</p>
-    <div class="chart-container">
-        <canvas id="myRadarChart"></canvas>
-    </div>
-</div>
+        <div class="grafico">
+            <h2>Habilidades de Diseño</h2>
+            <p>En este gráfico se puede ver mis diferentes habilidades que he adquirido durante los años 2023 hasta la actualidad 2025</p>
+            <div class="chart-container">
+                <canvas id="myRadarChart"></canvas>
+            </div>
+        </div>
 
         <!-- Footer -->
         <footer class="footer">
@@ -40,16 +40,13 @@
             <div class="social-links">
                 <a href="https://www.behance.net/siana">Behance</a>
                 <a href="https://www.linkedin.com/in/anais-silva-b38b3421a/">LinkedIn</a>
-                <a href="https://mail.google.com/mail/u/5/#inbox?compose=GTvVlcSHxjbXHXQgbLgpDKDrmDQsHPgBgdgmrzjxGpgMpBTpkMsgWHRglWprdKPNgvLsdLTDpwHhS">Gmail</a>
+                <a href="mailto:anais.silva@gmail.com">Gmail</a>
             </div>
         </footer>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script>
-
-       
-        
         const colores = {
             red: 'rgb(255, 99, 132)',
             orange: 'rgb(255, 159, 64)',
@@ -65,15 +62,6 @@
             return color.replace('rgb', 'rgba').replace(')', `, ${alpha})`);
         }
 
-        function generarNumeros(count, min, max) {
-            const numbers = [];
-            for (let i = 0; i < count; i++) {
-                numbers.push(Math.random() * (max - min) + min);
-            }
-            return numbers;
-        }
-
-        // Configuración del gráfico
         const data = {
             labels: ['UX/UI', 'Editorial', 'Packaging', 'Branding', 'Industrial', 'Gráfico', 'Experimental', 'Marketing'],
             datasets: [
@@ -88,26 +76,22 @@
                     data: [5, 8, 10, 8, 9, 10, 12, 10],
                     borderColor: colores.blue,
                     backgroundColor: transparentize(colores.blue, 0.5),
-                    
                 },
                 {
                     label: '2024',
                     data: [8, 10, 12, 11, 10, 13, 15, 12],
                     borderColor: colores.purple,
                     backgroundColor: transparentize(colores.purple, 0.5),
-                    
                 },
                 {
                     label: '2025',
                     data: [10, 10, 13, 15, 12, 14, 15, 14],
                     borderColor: colores.green,
                     backgroundColor: transparentize(colores.green, 0.5),
-                    
                 }
             ]
         };
 
-        // Configuración
         const config = {
             type: 'radar',
             data: data,
@@ -118,13 +102,6 @@
                     title: {
                         display: true,
                         text: 'Análisis de Competencias',
-    animation: {
-    duration: 7000,  
-    easing: 'easeInOutQuart',  // Tipo de curva de animación
-    delay: (context) => {
-        return context.dataIndex * 5000;  // Cada punto aparece con 100ms de diferencia
-    }
-}
                     },
                     filler: {
                         propagate: false
@@ -145,10 +122,8 @@
             }
         };
 
-        // Crear el gráfico
         const ctx = document.getElementById('myRadarChart').getContext('2d');
         const myRadarChart = new Chart(ctx, config);
-
     </script>
 </body>
 </html>
