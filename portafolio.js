@@ -73,14 +73,14 @@ const galleryGrid = document.querySelector(".gallery-grid");
 trabajos.forEach((trabajo) => {
     const item = document.createElement("div");
     item.classList.add("gallery-item");
-    
-    item.innerHTML = `
-        <img src="${trabajo.imagen}" alt="${trabajo.alt}">
-        <div class="gallery-overlay">
-            <h3>${trabajo.titulo}</h3>
-            <p>${trabajo.categoria}</p>
-        </div>
-    `;
+
+	item.innerHTML = `
+  <img src="${trabajo.imagen}" alt="${trabajo.alt}">
+  <div class="gallery-overlay">
+      <h3>${trabajo.titulo}</h3>
+      <p>${trabajo.subtitulo || trabajo.categoria || ""}</p>
+  </div>
+`;
     
     galleryGrid.appendChild(item);
 });
