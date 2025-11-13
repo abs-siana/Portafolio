@@ -8,13 +8,13 @@ const trabajos = [
   descripcion: "Kit de té que combina comodidad, funcionalidad y estética para compartir momentos.",
   imagen: "AromaZen.png",
   alt: "Proyecto 1"
-}
+},
 
 	{
 	titulo: "Morpho",
 	categoria: "Diseño de producto",
 	imagen: "morpho.png",
-	alt: "Proyecto 2",,
+	alt: "Proyecto 2",
 	},
 
 	{
