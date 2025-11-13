@@ -3,23 +3,24 @@
 const trabajos = [
 	
 	{
-	titulo: "AromaZen",
-	categoria: "Diseño de Interfaz",
+	titulo: "Kit AromaZen",
+	categoria: "Diseño de Producto | Experiencia de Usuario",
+	categoria: "Kit de té que combina comodidad, funcionalidad y estética para compartir momentos",
 	imagen: "AromaZen.png",
 	alt: "Proyecto 1",
 	},
 
 	{
-	titulo: "I AM NOT PLASTIC",
-	categoria: "Diseño de Biomateriales",
-	imagen: "IAMNOTPLASTIC.png",
-	alt: "Proyecto 2",
+	titulo: "Morpho",
+	categoria: "Diseño de producto",
+	imagen: "morpho.png",
+	alt: "Proyecto 2",,
 	},
 
 	{
-	titulo: "Ilumini",
+	titulo: "SoundZ",
 	categoria: "Pedido Personalizado",
-	imagen: "Ilumini.png",
+	imagen: "SoundZ.png",
 	alt: "Proyecto 3",
 	},
 
@@ -47,7 +48,7 @@ const trabajos = [
 	{
 	titulo: "Mivory Join",
 	categoria: "Diseño por manufactura digital",
-	imagen: "mivoryjoin.png",
+	imagen: "mivoryjoin.pngIlumini.png",
 	alt: "Proyecto 7",
 	},
 
