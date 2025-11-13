@@ -25,7 +25,7 @@ const trabajos = [
 	},
 
 	{
-	titulo: "Llave Ingles",
+	titulo: "Mivory Join",
 	categoria: "Diseño de Producto",
 	imagen: "LlaveInglesa.png",
 	alt: "Proyecto 4",
@@ -39,28 +39,28 @@ const trabajos = [
 	},
 
 	{
-	titulo: "MIM",
+	titulo: "I am not plastic",
 	categoria: "Pedido Personalizado",
 	imagen: "mim.png",
 	alt: "Proyecto 6",
 	},
 
 	{
-	titulo: "Mivory Join",
+	titulo: "Ilumini",
 	categoria: "Diseño por manufactura digital",
 	imagen: "mivoryjoin.pngIlumini.png",
 	alt: "Proyecto 7",
 	},
 
 	{
-	titulo: "Morpho",
+	titulo: "Equilibra-T",
 	categoria: "Diseño de producto",
 	imagen: "Morpho.png",
 	alt: "Proyecto 8",
 	},
 
 	{
-	titulo: "SoundZ",
+	titulo: "Llave Inglesa",
 	categoria: "Diseño de Juego",
 	imagen: "SoundZ.png",
 	alt: "Proyecto 9",
