@@ -207,8 +207,7 @@ body {
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-}
-/* === ESTILOS SOLO PARA LA PÁGINA "SOBRE MÍ" === */
+    /* === ESTILOS SOLO PARA LA PÁGINA "SOBRE MÍ" === */
 body.sobre-mi {
     background-color: #001166; /* Fondo azul oscuro */
     color: #f0f0e7; /* Texto claro */
@@ -248,4 +247,5 @@ body.sobre-mi .grafico h2 {
 body.sobre-mi .grafico p {
     color: #dcdcdc;
     margin-bottom: 30px;
+}
 }
