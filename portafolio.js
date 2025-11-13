@@ -3,12 +3,12 @@
 const trabajos = [
 	
 	{
-	titulo: "Kit AromaZen",
-	categoria: "Diseño de Producto | Experiencia de Usuario",
-	categoria: "Kit de té que combina comodidad, funcionalidad y estética para compartir momentos",
-	imagen: "AromaZen.png",
-	alt: "Proyecto 1",
-	},
+  titulo: "Kit AromaZen",
+  subtitulo: "Diseño de Producto | Experiencia de Usuario",
+  descripcion: "Kit de té que combina comodidad, funcionalidad y estética para compartir momentos.",
+  imagen: "AromaZen.png",
+  alt: "Proyecto 1"
+}
 
 	{
 	titulo: "Morpho",
@@ -27,7 +27,7 @@ const trabajos = [
 	{
 	titulo: "Mivory Join",
 	categoria: "Diseño de Producto",
-	imagen: "LlaveInglesa.png",
+	imagen: "mivoryjoin.png",
 	alt: "Proyecto 4",
 	},
 
@@ -41,28 +41,28 @@ const trabajos = [
 	{
 	titulo: "I am not plastic",
 	categoria: "Pedido Personalizado",
-	imagen: "mim.png",
+	imagen: "iamnotplastic.png",
 	alt: "Proyecto 6",
 	},
 
 	{
 	titulo: "Ilumini",
 	categoria: "Diseño por manufactura digital",
-	imagen: "mivoryjoin.pngIlumini.png",
+	imagen: "ilumini.png",
 	alt: "Proyecto 7",
 	},
 
 	{
 	titulo: "Equilibra-T",
 	categoria: "Diseño de producto",
-	imagen: "Morpho.png",
+	imagen: "mim.png",
 	alt: "Proyecto 8",
 	},
 
 	{
 	titulo: "Llave Inglesa",
 	categoria: "Diseño de Juego",
-	imagen: "SoundZ.png",
+	imagen: "llave.png",
 	alt: "Proyecto 9",
 	}
 ]
