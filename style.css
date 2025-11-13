@@ -208,3 +208,44 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+/* === ESTILOS SOLO PARA LA PÁGINA "SOBRE MÍ" === */
+body.sobre-mi {
+    background-color: #001166; /* Fondo azul oscuro */
+    color: #f0f0e7; /* Texto claro */
+}
+
+body.sobre-mi .header h1,
+body.sobre-mi .header p,
+body.sobre-mi .nav a,
+body.sobre-mi .footer p,
+body.sobre-mi .footer a {
+    color: #f0f0e7;
+}
+
+body.sobre-mi .nav a.active {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+body.sobre-mi .yo p {
+    max-width: 700px;
+    margin: 40px auto;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #f5f5f5;
+}
+
+body.sobre-mi .grafico {
+    text-align: center;
+    margin-top: 60px;
+}
+
+body.sobre-mi .grafico h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+body.sobre-mi .grafico p {
+    color: #dcdcdc;
+    margin-bottom: 30px;
+}
