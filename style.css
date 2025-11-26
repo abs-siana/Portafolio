@@ -77,7 +77,7 @@ body {
 }
 
 .mi-foto {
-    width: 250px;
+    width: 200px;
     height: auto;
     object-fit: cover;
     margin-left: -100px;
