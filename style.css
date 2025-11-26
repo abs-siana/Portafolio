@@ -74,10 +74,11 @@ body {
     align-items: flex-start;
     gap: 25px;
     margin: 40px 0;
+    text-align: justify;
 }
 
 .mi-foto {
-    width: 270px;
+    width: 260px;
     height: auto;
     object-fit: cover;
     margin-left: -20px;
