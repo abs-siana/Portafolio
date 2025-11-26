@@ -76,7 +76,7 @@ body {
 }
     display: flex;
     align-items: flex-start;
-    gap: 25px;
+    gap: 30px;
     margin: 40px 0;
     text-align: justify;
 }
