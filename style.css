@@ -77,8 +77,9 @@ body {
 }
 
 .mi-foto {
-    width: 350px;
+    width: 250px;
     height: auto;
+    object-fit: cover;
 }
 
 /* === GALERÍA === */
