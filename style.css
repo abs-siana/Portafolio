@@ -72,14 +72,15 @@ body {
 .yo {
     display: flex;
     align-items: flex-start;
-    gap: 40px;
-    margin: 50px 0;
+    gap: 25px;
+    margin: 40px 0;
 }
 
 .mi-foto {
     width: 650px;
     height: auto;
     object-fit: cover;
+    margin-left: -60px;
 }
 
 /* === GALERÍA === */
