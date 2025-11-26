@@ -70,15 +70,28 @@ body {
 }
 
 .yo {
-    .yo p {
+    display: flex;
+    align-items: flex-start;   /* Alinea la imagen y el texto arriba */
+    gap: 35px;                 /* Espacio entre la imagen y el texto */
+    margin: 40px 0;
+}
+
+/* Imagen */
+.mi-foto {
+    width: auto;               /* Mantiene proporción natural */
+    height: 420px;             /* Ajusta la altura a tu gusto */
+    object-fit: cover;
+}
+
+/* Texto */
+.yo p {
     text-align: justify;
     text-justify: inter-word;
-}
-    display: flex;
-    align-items: flex-start;
-    gap: 35px;
-    margin: 40px 0;
-    text-align: justify;
+
+    height: auto;
+    max-height: 420px;         /* Igual a la altura de la imagen */
+    overflow: visible;
+    line-height: 1.6;          /* Mejor lectura */
 }
 
 .mi-foto {
