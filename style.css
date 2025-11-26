@@ -68,6 +68,19 @@ body {
 .nav a.active {
     color: #2c2c2c;
 }
+.yo {
+    display: flex;            /* coloca imagen y texto lado a lado */
+    align-items: flex-start;  /* alinea arriba */
+    gap: 30px;                /* espacio entre imagen y texto */
+    margin: 40px 0;           /* espacio alrededor */
+}
+
+.foto-yo {
+    width: 220px;             /* tamaño de la foto */
+    height: auto;
+    border-radius: 10px;      /* redondeado suave (opcional) */
+    flex-shrink: 0;           /* evita que la foto se haga pequeña */
+}
 
 /* === GALERÍA === */
 .gallery {
