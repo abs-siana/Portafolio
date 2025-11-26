@@ -77,9 +77,8 @@ body {
 }
 
 .mi-foto {
-    width: 220px;
+    width: 300px;
     height: auto;
-    border-radius: 10px; /* opcional para bordes redondeados */
 }
 
 /* === GALERÍA === */
