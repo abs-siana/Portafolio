@@ -77,10 +77,10 @@ body {
 }
 
 .mi-foto {
-    width: 200px;
+    width: 250px;
     height: auto;
     object-fit: cover;
-    margin-left: -80px;
+    margin-left: -60px;
 }
 
 /* === GALERÍA === */
