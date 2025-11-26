@@ -70,6 +70,10 @@ body {
 }
 
 .yo {
+    .yo p {
+    text-align: justify;
+    text-justify: inter-word;
+}
     display: flex;
     align-items: flex-start;
     gap: 25px;
