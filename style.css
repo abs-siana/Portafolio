@@ -69,37 +69,33 @@ body {
     color: #2c2c2c;
 }
 
+/* === SECCIÓN SOBRE MÍ === */
+
 .yo {
     display: flex;
-    align-items: flex-start;   /* Alinea la imagen y el texto arriba */
-    gap: 35px;                 /* Espacio entre la imagen y el texto */
-    margin: 40px 0;
+    align-items: center;        /* Centra la imagen y texto verticalmente */
+    justify-content: space-between;
+    gap: 50px;                  /* Espacio entre imagen y texto */
+    margin: 60px 0;
+}
+
+.yo .texto-sobre-mi {
+    flex: 1;                    /* El texto ocupa más espacio */
+}
+
+.yo p {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.05rem;
 }
 
 /* Imagen */
 .mi-foto {
-    width: auto;               /* Mantiene proporción natural */
-    height: 420px;             /* Ajusta la altura a tu gusto */
-    object-fit: cover;
-}
-
-/* Texto */
-.yo p {
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
-
-    height: auto;
-    max-height: 420px;         /* Igual a la altura de la imagen */
-    overflow: visible;
-    line-height: 1.6;          /* Mejor lectura */
-}
-
-.mi-foto {
-    width: 250px;
+    width: 350px;               /* Ajustalo a tu gusto */
     height: auto;
     object-fit: cover;
-    margin-left: -10px;
+    border-radius: 8px;         /* opcional */
 }
 
 /* === GALERÍA === */
