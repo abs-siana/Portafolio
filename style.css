@@ -92,9 +92,10 @@ body {
 
 /* Imagen */
 .mi-foto {
-    width: 350px;               /* Ajustalo a tu gusto */
+    width: auto;               /* Ajustalo a tu gusto */
     height: auto;
     object-fit: cover;
+    max-width: 100%;
     border-radius: 8px;         /* opcional */
 }
 
